@@ -1,0 +1,28 @@
+<ol>
+    <li>Array
+        <ul style="list-style-type: square;">
+            <li>1D Array</li>
+            <li>2D Array</li>
+        </ul>
+    </li>
+    <li>Linked List
+        <ul style="list-style-type: square;">
+            <li>Singly linked list</li>
+            <li>Doubly linked list</li>
+            <li>Circular linked list
+                <ol type="A">
+                    <li>Doubly circular linked list</li>
+                    <li>Triply circular linked list</li>
+                </ol>
+            </li>
+        </ul>
+    </li>
+    <li>Tree
+        <ul style="list-style-type: square;">
+            <li>Binary tree</li>
+            <li>Binary search tree</li>
+            <li>AVL(Adelson-Velsky and Landis tree)</li>
+            <li>Black tree</li>
+        </ul>
+    </li>
+</ol>
