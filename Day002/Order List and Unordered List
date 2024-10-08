@@ -1,0 +1,11 @@
+ <ul style="list-style-type: square;">
+    <li>apple</li>
+    <li>banana</li>
+    <li>grapes</li>
+</ul>
+
+<ol type="A">
+    <li>apple</li  >
+    <li>banana</li>
+    <li>grapes</li>
+</ol>
