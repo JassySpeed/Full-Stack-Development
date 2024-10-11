@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and Id</title>
+
+    <style>
+        .top{
+            background-color: orchid;
+        }
+
+        #first{
+            background-color: aqua;
+        }
+
+        #second{
+            background-color: brown;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- id only contain unique name || id can be access by using #-->
+    <!-- class can have same name or unique both || and class can be access by using dot(.)-->
+
+    <h1 id="first">my name is jasmeet</h1>
+    <h2 id="second">my hobbies are to play</h2>
+    <p class="top">lala lala lori dudh ki katori</p>
+    <p class="top">jai shree ram jai shree ram</p>
+
+
+</body>
+</html>
