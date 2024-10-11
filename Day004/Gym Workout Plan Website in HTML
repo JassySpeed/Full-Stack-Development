@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Workout Plan</title>
+
+    <!-- <style>
+        #lol{
+            background-color: bisque;
+            width: 100%;
+            position: fixed;
+            top: 0%;
+            
+        }
+
+        .tapu{
+            margin-top: 200px; 
+        }
+    </style> -->
+</head>
+<body>
+    <header>
+        
+        <section id="lol">
+            <h1>Weekly Gym Workout Plan</h1>
+        <ul>
+            <li><a href="#first">Monday - Chest Day</a></li>
+            <li><a href="#second">Tuesday - Back Day</a></li>
+            <li><a href="#third">Wednesday - Shoulder Day</a></li>
+            <li><a href="#fourth">Thrusday - Biceps Day</a></li>
+            <li><a href="#fifth">Friday - Leg Day</a></li>
+            <li><a href="#sixth">Saturday - Triceps and Cardio/Abs</a></li>
+        </ul>
+    </section>
+    </header>
+
+    <main class="tapu">
+        <img src="./bene.jpg" alt="gym image" height="500" width="350">
+        <img src="./Top_Pieces_of_Home_Gym_Equipment_Everyone_Needs_infographic.webp" alt="" height="500" width="300">
+        <img src="./killfat.jpg" alt="" height="500" width="700">
+        <hr>
+        <section id="first">
+            <img src="./chest.jpg" alt="" height="500" width="">
+            <h2>Chest Day</h2>
+            <ol>
+                <li>Bench Press: 3 sets of 8-12 reps</li>
+                <li>Incline Dumbbell Press: 3 sets of 10-12 reps</li>
+                <li>Dumbbell Flyes: 3 sets of 12-15 reps</li>
+                <li>Push-ups: 3 sets to failure</li>
+                <li>Cable Flyes: 3 sets of 12-15 reps</li>
+            </ol>
+        </section>
+<hr>
+        <section id="second">
+            <img src="./back.webp" alt="" height="500">
+            <h2>Back Day</h2>
+            <ol>
+                <li>Deadlift: 3-5 sets of 4-6 reps</li>
+                <li>Pulldown: 3-4 sets of 8-12 reps</li>
+                <li>Pull-ups: 3-4 sets of as many reps as possible</li>
+                <li>Bent-over row: 3-4 sets of 8-12 reps</li>
+                <li>Face pulls: 3-4 sets of 15-20 reps</li>
+            </ol>
+        </section>
+<hr>        
+        <section id="third">
+            <img src="./Shoulder.jpg" alt="" height="500" width="700">
+            <h2>Shouler Day</h2>
+            <ol>
+                <li>Overhead press: 3 sets of 8-12 reps (use dumbbells or barbell)</li>
+                <li>Lateral raises: 3 sets of 12-15 reps (use dumbbells)</li>
+                <li>Dumbbell front raises: 3 sets of 12-15 reps (use dumbbells)</li>
+                <li>Face pulls: 3 sets of 15-20 reps (use resistance bands or cable machine)</li>
+                <li>Bent-over rows: 3 sets of 10-12 reps (use dumbbells or barbell)</li>
+            </ol>
+        </section>
+<hr>
+        <section id="fourth">
+            <img src="./bicep.jpg" alt="" height="500">
+            <h2>Biceps Day</h2>
+            <ol>
+                <li>Bicep Curls: 10-12 reps</li>
+                <li>Hammer Curls: 10-12 reps</li>
+                <li>Concentration Curls: 10-12 reps</li>
+                <li>Incline Dumbbell Curls: 10-12 reps</li>
+                <li>Preacher Curls: 10-12 reps</li>
+            </ol>
+        </section>
+<hr>
+        <section id="fifth">
+            <img src="./leg.jpg" alt="" height="500">
+            <h2>Leg Day</h2>
+            <ol>
+                <li>Squats: 3 sets of 8-12 reps</li>
+                <li>Lunges: 3 sets of 10-12 reps per leg</li>
+                <li>Leg Press: 3 sets of 10-12 reps</li>
+                <li>Hamstring Curls: 3 sets of 12-15 reps</li>
+                <li>Calf Raises:3 sets of 15-20 reps</li>
+            </ol>
+        </section>
+<hr>
+        <section id="sixth">
+            <img src="./tricpe.webp" alt="" height="400">
+            <img src="./tabs.jpg" alt="" height="400">
+            <h2>Triceps and Cardio/Abs Day</h2>
+            <ol>
+                <li>Tricep Extensions (Overhead Press): 3 sets of 10-12 reps</li>
+                <li>Skull Crushers: 3 sets of 10-12 reps</li>
+                <li>Overhead Tricep Extensions: 3 sets of 10-12 reps</li>
+                <li>Crunches: 3 sets of 15-20 reps</li>
+                <li>Leg Raises: 3 sets of 15-20 reps</li>
+                <li>Russian Twists: 3 sets of 20-25 reps</li>
+            </ol>
+        </section>
+
+    </main>
+    
+</body>
+</html>
