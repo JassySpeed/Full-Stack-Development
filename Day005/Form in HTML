@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    
+    <form action="">
+        <label for="first">Name:</label>
+        <input type="text" id="first" name="fname" placeholder="Enter your name" value="">
+            <br>
+            <br>
+        <label for="second">Age:</label>
+        <input type="number" id="second" placeholder="Enter your age" name="Ageofstudent" value="">
+            <br>
+            <br>
+
+        <button>Submit</button>
+
+    </form>
+
+</body>
+</html>
