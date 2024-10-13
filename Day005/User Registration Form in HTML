@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    
+    <h1>User Registration</h1>
+
+    <form action="">
+
+        <label for="name">Usernmae:</label>
+        <input type="text" id="name" name="fname" placeholder="Enter your name">
+
+        <br>
+        <br>
+
+        <label for="youremail">Email:</label>
+        <input type="email" name="mail" id="youremail" placeholder="xyz@gmail.com">
+
+        <br>
+        <br>
+
+        <label for="yourpass">Password:</label>
+        <input type="password" name="pass" id="yourpass" placeholder="Enter your password">
+
+        <br>
+        <br>
+
+        <label>Gender:</label>
+        <input type="radio"  id="formale" name="gender" value="Male">
+        <label for="formale">Male</label>
+        <input type="radio" id="forfemale"  name="gender" value="Female">
+        <label for="forfemale">Female</label>
+        <input type="radio"  id="forother" name="gender" value="Other">
+        <label for="forother">Other</label>
+         
+        <br>
+        <br>
+
+        <input type="checkbox" id="agree" name="term">
+        <label for="agree">I agree to the terms and conditions</label>
+
+        <br>
+        <br>
+
+        <button>Register</button>
+
+    </form>
+
+</body>
+</html>
