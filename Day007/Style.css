@@ -1,0 +1,57 @@
+/* Select by element */
+h1{
+    background-color:chocolate;
+    color:aqua;
+}
+
+ul{
+    background-color: pink;
+}
+
+/* Select by class name */
+.first{
+    background-color: darkgreen;
+    color:greenyellow;
+}
+
+/* Select by id */
+#second{
+    color: white;
+    background-color: black;
+}
+
+#third{
+    background-color: crimson;
+    color: white;
+}
+
+/* Universal selector (*) */
+/* *{
+    color: red;
+} */
+
+/* Select by grouping by using (,) */
+h2,h3,h4{
+    color:tomato;
+}
+
+/* Select by attribute */
+h3[draggable="true"]{
+    background-color: blueviolet;
+}
+
+/* Select by descendant */
+/* section p{
+    background-color: wheat;
+} */
+
+/* Select by child */
+section > p{
+    background-color: steelblue;
+}
+
+/* id selector with class selector */
+#fight,.footballer{
+    background-color: peru;
+    color: bisque;
+}
