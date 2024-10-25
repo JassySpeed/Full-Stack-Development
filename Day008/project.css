@@ -1,0 +1,96 @@
+
+body{
+    background-color: rgba(128, 128, 128, 0.364);
+}
+
+header{
+    background-color: #4CAF50;
+}   
+
+header h1{
+    color: white;
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h2{
+    color: yellow;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#first{
+    color: #007BFF;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.second{
+    color: rgb(238, 158, 171);
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para{
+    line-height: 30px;
+    font-size: 18px;
+    color:rgb(126, 84, 84);
+}
+
+.white{
+    background-color: white;
+}
+
+div ul{
+    font-size: 18px;
+    color:rgb(126, 84, 84);
+}
+
+#java{
+    color: red;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.table{
+    color: white;
+    background-color: blue;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+th{
+    column-width: 50em;
+}
+
+.tabledata{
+    font-size: 18px;
+    color:rgb(126, 84, 84);
+}
+
+#responsive{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    font-size: 2em;
+}
+
+footer{
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+
+/* a:hover{
+
+    font-weight: 700;
+    font-size: 25px;
+    transition: 2s ease;
+}
+
+a:not(hover){
+    transition: 2s linear;
+} */
+
