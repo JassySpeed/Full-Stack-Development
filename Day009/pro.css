@@ -1,0 +1,30 @@
+.card{
+    background-color: blanchedalmond;
+    border: 5px pink solid;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    display: table;
+
+}
+
+h2{
+    text-align: center;
+    color: blueviolet;
+}
+
+h3{
+    text-align: center;
+    color: indianred;
+}
+
+.card:hover{
+    background-color:cadetblue;
+    transform: scale(1.2);
+
+}
+
+.card:hover h2{
+    font-size: 30px;
+}
