@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+
+#first{
+    
+    height: 33vh;
+    width: 33vh;
+    background-color: red;
+    margin: auto;
+    margin-top: 33vh    ;
+    border-radius: 50%;
+
+    
+}
+
+/* margin auto horizontally center the element */
