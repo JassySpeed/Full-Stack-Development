@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(243, 232, 232);
+}
+
+.box{
+    display: inline-block;
+}
+
+.img{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container:hover{
+    background-color: white;
+    border-color: white;
+}
+
+.container{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 10px solid rgb(243, 232, 232);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.rated{
+    margin-bottom: 10px;
+}
+
+.rating{
+    background-color: darkgreen;
+    border-radius: 5px;
+    color: white;
+    padding: 3px;
+}
+
+
+.time{
+    text-transform: uppercase;
+    color: rgb(104, 98, 98);
+    margin-left: 5px;
+}
+
+.food{
+    font-size: 16px;
+    color: rgb(104, 98, 98);
+    margin-bottom: 10px;
+}
+
+.location{
+    font-size: 16px;
+    color: rgb(104, 98, 98);
+    margin-bottom: 10px;
+}
