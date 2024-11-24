@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    border: 5px solid black;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: green;
+}
+
+.box3{
+    background-color: blue;
+}
+
+.box4{
+    background-color: orange;
+}
+
