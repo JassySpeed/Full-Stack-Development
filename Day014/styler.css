@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    background-color: rgb(175, 167, 167);
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    gap: 1rem;
+}
+
+.box{
+    background-color: orange;
+    border: 0.5rem solid black;
+}
+
+.header , .footer{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1/4;
+}
+
+.sidebar{
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    grid-row: 2/4;
+}
+
+.content1{
+    grid-column: 2/4;
+}
+
+
+
+
+
+/* fraction = fr */
+/* grid */
