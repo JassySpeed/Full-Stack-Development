@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: repeat(4,minmax(100px,200px)); */
+    grid-template-columns: repeat(auto-fit,minmax(100px,200px));
+    background-color: black;
+    gap: 1rem;
+    padding: 2rem;
+    justify-items:center ;
+    align-items: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    font-size: 2rem;
+}
+
