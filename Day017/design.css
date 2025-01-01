@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: khaki;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    font-size: 2rem;
+    background-color: orange;
+    border: 0.5rem solid black;
+    transition: all 1.5s linear 0s;
+}
+
+.box1:hover{
+    transform: rotatex(80deg);
+}
+
+.box2:hover{
+    transform: rotatey(80deg);
+}
+
+.box3:hover{
+    transform: rotatez(80deg);
+}
+
+.box4:hover{
+    transform: translatex(50px);
+}
+
+.box5:hover{
+    transform: translatey(50px);
+}
+
+.box6:hover{
+    transform: perspective(100px) translatez(50px);
+}
+
+.box7:hover{
+    transform: scalex(2);
+}
+
+.box8:hover{
+    transform: scaley(2);
+}
+
+.box9:hover{
+    transform: perspective(300px) rotatey(90deg) scalez(2);
+}
